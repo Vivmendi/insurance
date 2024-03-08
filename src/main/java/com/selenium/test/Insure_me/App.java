@@ -30,7 +30,7 @@ public class App
          System.out.println("Script Executing Successfully");
        
          //1. open the browser and get to the url
-         driver.get("http://18.224.39.13:8081/contact.html");
+         driver.get("http://3.131.82.141:8081/contact.html");
          
        //enable wait of 3 seconds
          driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
