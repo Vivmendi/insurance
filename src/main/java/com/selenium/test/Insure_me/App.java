@@ -23,7 +23,8 @@ public class App
         
         ChromeOptions chromeOptions = new ChromeOptions();
         WebDriverManager.chromedriver().clearDriverCache().setup();
-        
+     // for headless execution in chrome
+        chromeOptions.addArguments("--headless"); 
      // for Chrome browser execution
         WebDriver driver = new ChromeDriver(chromeOptions);
          
